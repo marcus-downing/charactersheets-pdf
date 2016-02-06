@@ -8,7 +8,7 @@
         { "name": "Bluff", "ability": "CHA", "useUntrained": true, "noRage": true, "favouredEnemy": true },
         { "name": "Climb", "ability": "STR", "useUntrained": true, "acp": true },
         { "name": "Diplomacy", "ability": "CHA", "useUntrained": true, "noRage": true },
-            { "name": "Wild Empathy", "ability": "CHA", "noRage": true },
+            { "name": "Wild Empathy", "ability": "CHA", "noRanks": true, "noRage": true, "plusLevel": true },
         { "name": "Disable Device", "ability": "DEX", "noRage": true, "acp": true },
             { "name": "Disarm Traps", "subSkillOf": "Disable Device", "optional": true, "plusHalfLevel": true },
         { "name": "Disguise", "ability": "CHA", "useUntrained": true, "noRage": true },
@@ -48,6 +48,19 @@
 
         { "name": "Autohypnosis", "ability": "WIS" },
 
+        { "name": "Acrobatics <alt>", "displayName": "Acrobatics", "ability": "DEX", "useUntrained": true },
+        { "name": "Athletics <alt>", "displayName": "Athletics", "ability": "STR", "useUntrained": true },
+        { "name": "Finesse <alt>", "displayName": "Finesse", "ability": "DEX", "useUntrained": false },
+        { "name": "Influence <alt>", "displayName": "Influence", "ability": "CHA", "useUntrained": true },
+        { "name": "Nature <alt>", "displayName": "Nature", "ability": "INT", "useUntrained": false, "favouredTerrain": true },
+        { "name": "Perception <alt>", "displayName": "Perception", "ability": "WIS", "useUntrained": true, "favouredEnemy": true, "favouredTerrain": true },
+        { "name": "Performance <alt>", "displayName": "Performance", "ability": "CHA", "useUntrained": true },
+        { "name": "Religion <alt>", "displayName": "Religion", "ability": "INT", "useUntrained": true },
+        { "name": "Society <alt>", "displayName": "Society", "ability": "INT", "useUntrained": true },
+        { "name": "Spellcraft <alt>", "displayName": "Spellcraft", "ability": "INT", "useUntrained": true },
+        { "name": "Stealth <alt>", "displayName": "Stealth", "ability": "DEX", "useUntrained": true, "favouredTerrain": true },
+        { "name": "Survival <alt>", "displayName": "Survival", "ability": "WIS", "useUntrained": true, "favouredEnemy": true, "favouredTerrain": true },
+
         { "name": "Knowledge (aeronautics)", "ability": "INT", "noRage": true, "afterFold": true, "favouredEnemy": true, "favouredTerrain": true }
     ],
 
@@ -75,6 +88,49 @@
         "Acrobatics", "Climb", "Escape Artist", "Fly", "Perception", "Sense Motive", "Stealth",
         "Survival", "Track", "Swim"
     ],
+
+    "consolidatedSkills": {
+        "Acrobatics": [ "Acrobatics <alt>", "Athletics <alt>" ],
+        "Escape Artist": [ "Acrobatics <alt>" ],
+        "Fly": [ "Acrobatics <alt>" ],
+        "Ride": [ "Acrobatics <alt>" ],
+
+        "Climb": [ "Athletics <alt>" ],
+        "Swim": [ "Athletics <alt>" ],
+        "Disable Device": [ "Finesse <alt>" ],
+        "Sleight of Hand": [ "Finesse <alt>" ],
+
+        "Bluff": [ "Influence <alt>" ],
+        "Diplomacy": [ "Influence <alt>" ],
+        "Intimidate": [ "Influence <alt>" ],
+
+        "Handle Animal": [ "Nature <alt>" ],
+        "Knowledge (dungeoneering)": [ "Nature <alt>" ],
+        "Knowledge (geography)": [ "Nature <alt>" ],
+        "Knowledge (nature)": [ "Nature <alt>" ],
+
+        "Perception": [ "Perception <alt>" ],
+        "Sense Motive": [ "Perception <alt>" ],
+
+        "Disguise": [ "Performance <alt>" ],
+
+        "Knowledge (planes)": [ "Religion <alt>" ],
+        "Knowledge (religion)": [ "Religion <alt>" ],
+
+        "Knowledge (history)": [ "Society <alt>" ],
+        "Knowledge (local)": [ "Society <alt>" ],
+        "Knowledge (nobility)": [ "Society <alt>" ],
+        "Linguistics": [ "Society <alt>" ],
+
+        "Knowledge (arcana)": [ "Spellcraft <alt>" ],
+        "Spellcraft": [ "Spellcraft <alt>" ],
+        "Use Magic Device": [ "Spellcraft <alt>" ],
+
+        "Stealth": [ "Stealth <alt>" ],
+
+        "Heal": [ "Survival <alt>" ],
+        "Survival": [ "Survival <alt>" ]
+    },
 
     "pages": [
         { "file": "Core/Character Info.pdf", "slot": "core", "name": "Character Info" },
@@ -577,7 +633,7 @@
         {
             "name": "Druid",
             "pages": [ "druid", "inventory/without", "wildshape", "spellbook" ],
-            "skills": [ "Concentration (WIS)", "Climb", "Fly", "Handle Animal", "Heal", "Knowledge (geography)", "Knowledge (nature)", "Perception", "Ride", "Spellcraft", "Survival", "Swim" ],
+            "skills": [ "Concentration (WIS)", "Climb", "Fly", "Handle Animal", "Heal", "Knowledge (geography)", "Knowledge (nature)", "Perception", "Ride", "Spellcraft", "Survival", "Swim", "Wild Empathy" ],
             "axes": [
                 ["Druid", "Shaman", "Menhir Savant", "Mooncaller", "Pack Lord", "Reincarnated", "Aquatic", "Arctic", "Blight", "Cave", "Desert", "Jungle", "Mountain", "Plains", "Swamp", "Storm", "Urban", "World Walker"],
                 ["Animal Companion", "Domain"]
