@@ -73,7 +73,7 @@
 
     "summarySkills": [
         "Acrobatics", "Appraise", "Bluff", "Climb", "Diplomacy", "Disable Device", "Disguise",
-        "Escape Artist", "Fly", "Handle Animal", "Heal", "Intimidate", "Linguistics", "Perception",
+        "Escape Artist", "Fly", "Handle Animal", "Heal", "Intimidate", "Linguistics", "Locate Traps", "Perception",
         "Ride", "Sense Motive", "Sleight of Hand", "Spellcraft", "Stealth", "Survival", "Swim",
         "Use Magic Device"
     ],
@@ -141,7 +141,7 @@
         { "file": "Core/Inventory without.pdf", "slot": "inventory", "variant": "without", "name": "without accessories", "position": 53 },
 
         { "file": "Core/Barbarian/Barbarian - Character Info.pdf", "slot": "core", "variant": "barbarian", "name": "Barbarian", "position": 10 },
-          { "file": "Core/Barbarian/Barbarian - Combat.pdf", "slot": "combat", "variant": "barbarian", "name": "Barbarian", "position": 11 },
+          { "file": "Core/Barbarian/Barbarian - Combat.pdf", "slot": "combat", "variant": "barbarian", "name": "Combat", "position": 11 },
           { "file": "Core/Barbarian/Barbarian.pdf", "slot": "barbarian", "name": "Barbarian" },
             { "file": "Archetypes/Barbarian/Armoured Hulk.pdf", "slot": "barbarian", "variant": "armouredhulk", "name": "Armoured Hulk" },
             { "file": "Archetypes/Barbarian/Breaker.pdf", "slot": "barbarian", "variant": "breaker", "name": "Breaker" },
@@ -338,7 +338,30 @@
         { "file": "Advanced Class Guide/Swashbuckler.pdf", "slot": "swashbuckler", "name": "Swashbuckler" },
         { "file": "Advanced Class Guide/Warpriest.pdf", "slot": "warpriest", "name": "Warpriest" },
 		
+        { "file": "Occult/Kineticist A.pdf", "slot": "kineticist-a", "name": "Kineticist A" },
+            { "file": "Occult/Kineticist A more.pdf", "slot": "kineticist-a", "variant": "more", "name": "Kineticist A" },
+        { "file": "Occult/Kineticist B.pdf", "slot": "kineticist-b", "name": "Kineticist B" },
+            { "file": "Occult/Kineticist B more.pdf", "slot": "kineticist-b", "variant": "more", "name": "Kineticist B" },
+        { "file": "Occult/Medium.pdf", "slot": "medium", "name": "Medium" },
+            { "file": "Occult/Medium - Spirits.pdf", "slot": "medium-spirits", "name": "Medium Spirits" },
+        { "file": "Occult/Mesmerist.pdf", "slot": "mesmerist", "name": "Mesmerist" },
+        { "file": "Occult/Occultist.pdf", "slot": "occultist", "name": "Occultist" },
+            { "file": "Occult/Occultist - Implements 2.pdf", "slot": "occultist-implements", "name": "Occultist Implements" },
+        { "file": "Occult/Spiritualist.pdf", "slot": "spiritualist", "name": "Spiritualist" },
+            { "file": "Occult/Spiritualist - Phantom.pdf", "slot": "spiritualist-phantom", "name": "Spiritualist Phantom" },
+            { "file": "Occult/Spiritualist - Phantom - Combat.pdf", "slot": "spiritualist-phantom-combat", "name": "Spiritualist Phantom Combat" },
 		
+        { "file": "Unchained/Barbarian/Barbarian.pdf", "slot": "unchained-barbarian", "name": "Barbarian" },
+            { "file": "Unchained/Barbarian/Barbarian - Combat.pdf", "slot": "combat", "variant": "unchained-barbarian", "name": "Combat", "position": 11 },
+        { "file": "Unchained/Monk/Monk.pdf", "slot": "unchained-monk", "name": "Monk" },
+            { "file": "Unchained/Monk/Monk - Combat.pdf", "slot": "combat", "variant": "unchained-monk", "name": "Combat", "position": 11 },
+        { "file": "Unchained/Rogue.pdf", "slot": "unchained-rogue", "name": "Rogue" },
+        { "file": "Unchained/Summoner/Summoner.pdf", "slot": "unchained-summoner", "name": "Summoner" },
+            { "file": "Unchained/Summoner/Eidolon.pdf", "slot": "eidolon", "variant": "unchained-summoner", "name": "Eidolon" },
+            { "file": "Unchained/Summoner/Eidolon - Combat.pdf", "slot": "eidoloncombat", "variant": "unchained-summoner", "name": "Eidolon Combat", "position": 11 },
+
+
+
         { "file": "Psionics/Psionics - Inventory.pdf", "slot": "inventory", "variant": "psionic", "name": "Inventory (Psionic)", "position": 53 },
         { "file": "Psionics/Psion.pdf", "slot": "psion", "name": "Psion" },
         { "file": "Psionics/Psychic Warrior.pdf", "slot": "psychicwarrior", "name": "Psychic Warrior" },
@@ -475,16 +498,18 @@
     },
 
     "layout": [
-        [ "Core Rulebook", "Advanced Player's Guide", "Prestige Classes" ],
-        [ "Ultimate Magic", "Ultimate Combat", "Advanced Class Guide", "Mythic Adventures", "Tome of Secrets" ],
-        [ "Psionics Unleashed", "Psionics Expanded", "NeoExodus", "Generic" ]
+        [ "Core Rulebook", "Advanced Player's Guide", "Ultimate Magic", "Ultimate Combat" ],
+        [ "Advanced Class Guide", "Mythic Adventures", "Prestige Classes", "Occult Adventures", "Pathfinder Unchained" ],
+        [ "Tome of Secrets", "Psionics Unleashed", "Psionics Expanded", "NeoExodus", "Generic" ]
     ],
 
     "languages": [
         { "code": "english",  "short": "gb", "name": "English",     "ready": [1, 1, 1, 1] },
-        { "code": "italian",  "short": "it", "name": "Italiano",    "ready": [0.75, 0.5, 0.25, 0.3] },
-        { "code": "spanish",  "short": "es", "name": "Español",     "ready": [0.9, 0.35, 0.4, 0.4] },
-        { "code": "polish",   "short": "pl", "name": "Polski",      "ready": [1, 0.2, 0.25, 0.3] },
+        { "code": "italian",  "short": "it", "name": "Italiano",    "ready": [1, 0.7, 0.8, 0.65] },
+        { "code": "spanish",  "short": "es", "name": "Español",     "ready": [1, 0.7, 0.8, 0.65] },
+        { "code": "polish",   "short": "pl", "name": "Polski",      "ready": [1, 0.6, 0.75, 0.6] },
+        { "code": "german",   "short": "de", "name": "Deutch",      "ready": [1, 0.7, 0.8, 0.6] },
+        { "code": "french",   "short": "fr", "name": "Français",    "ready": [0.8, 0.6, 0.8, 0.6] },
         { "code": "american", "short": "us", "name": "US English",  "ready": [1, 1, 1, 1] }
     ],
 
@@ -517,6 +542,16 @@
         {
             "name": "Advanced Class Guide",
             "classes": [ "Arcanist", "Bloodrager", "Brawler", "Hunter", "Investigator", "Shaman", "Skald", "Slayer", "Swashbuckler", "Warpriest" ]
+        },
+
+        {
+            "name": "Occult Adventures",
+            "classes": [ "Kineticist", "Medium", "Mesmerist", "Occultist", "Psychic", "Spiritualist" ]
+        },
+
+        {
+            "name": "Pathfinder Unchained",
+            "classes": [ "Unchained Barbarian", "Unchained Monk", "Unchained Rogue", "Unchained Summoner" ]
         },
 
         {
@@ -970,6 +1005,71 @@
                 { "name": "Shadowdancer", "pages": [ "prestige/shadowdancer"],
                     "skills": [ "Acrobatics", "Bluff", "Diplomacy", "Disguise", "Escape Artist", "Perception", "Sleight of Hand", "Stealth" ] }
             ]
+        },
+
+        {
+            "name": "Kineticist",
+            "pages": [ ],
+            "skills": [ "Acrobatics", "Heal", "Intimidate", "Perception", "Stealth", "Use Magic Device" ],
+            "variants": [
+                { "name": "Kineticist", "pages": [ "kineticist-a", "kineticist-b" ] },
+                { "name": "More elements", "pages": [ "kineticist-a/more", "kineticist-b/more" ] }
+            ]
+        },
+
+        {
+            "name": "Medium",
+            "pages": [ "medium", "medium-spirits", "spellbook" ],
+            "skills": [ "Bluff", "Concentration (CHA)", "Diplomacy", "Fly", "Heal", "Intimidate", "Knowledge (arcana)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Perception", "Sense Motive", "Spellcraft", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Mesmerist",
+            "pages": [ "mesmerist", "spellbook" ],
+            "skills": [ "Appraise", "Bluff", "Concentration (CHA)", "Diplomacy", "Disguise", "Escape Artist", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nobility)", "Knowledge (religion)", "Linguistics", "Perception", "Sense Motive", "Sleight of Hand", "Spellcraft", "Stealth", "Use Magic Device" ],
+            "plusHalfLevel": [ "Bluff" ]
+        },
+
+        {
+            "name": "Occultist",
+            "pages": [ "occultist", "occultist-implements", "spellbook" ],
+            "skills": [ "Appraise", "Concentration (INT)", "Diplomacy", "Disable Device", "Disguise", "Fly", "Knowledge (arcana)", "Knowledge (engineering)", "Knowledge (history)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Perception", "Sense Motive", "Sleight of Hand", "Spellcraft", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Psychic",
+            "pages": [ "psychic", "spellbook" ],
+            "skills": [ "Bluff", "Concentration (INT)", "Diplomacy", "Fly", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Perception", "Sense Motive", "Spellcraft" ]
+        },
+
+        {
+            "name": "Spiritualist",
+            "pages": [ "spiritualist", "spiritualist-phantom", "spiritualist-phantom-combat", "spellbook" ],
+            "skills": [ "Bluff", "Concentration (WIS)", "Fly", "Heal", "Intimidate", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Sense Motive", "Spellcraft", "Use Magic Device" ]
+        },
+
+        {
+            "name": "Unchained Barbarian",
+            "pages": [ "core/barbarian", "combat/unchained-barbarian", "unchained-barbarian" ],
+            "skills": [ "Acrobatics", "Climb", "Handle Animal", "Intimidate", "Knowledge (nature)", "Perception", "Ride", "Survival", "Swim" ]
+        },
+
+        {
+            "name": "Unchained Monk",
+            "pages": [ "combat/unchained-monk", "unchained-monk" ],
+            "skills": [ "Acrobatics", "Climb", "Escape Artist", "Intimidate", "Knowledge (history)", "Knowledge (religion)", "Perception", "Ride", "Sense Motive", "Stealth", "Swim" ]
+        },
+
+        {
+            "name": "Unchained Rogue",
+            "pages": [ "unchained-rogue" ],
+            "skills": [ "Acrobatics", "Appraise", "Bluff", "Climb", "Diplomacy", "Disable Device", "Disguise", "Escape Artist", "Intimidate", "Knowledge (dungeoneering)", "Knowledge (local)", "Linguistics", "Perception", "Perform", "Sense Motive", "Sleight of Hand", "Stealth", "Swim", "Use Magic Device", "Disarm Traps", "Locate Traps" ]
+        },
+
+        {
+            "name": "Unchained Summoner",
+            "pages": [ "unchained-summoner", "eidolon/unchained-summoner", "eidoloncombat/unchained-summoner", "inventory", "spellbook" ],
+            "skills": [ "Concentration (CHA)", "Fly", "Handle Animal", "Knowledge (arcana)", "Knowledge (dungeoneering)", "Knowledge (engineering)", "Knowledge (geography)", "Knowledge (history)", "Knowledge (local)", "Knowledge (nature)", "Knowledge (nobility)", "Knowledge (planes)", "Knowledge (religion)", "Linguistics", "Ride", "Spellcraft", "Use Magic Device" ]
         },
 
         {
