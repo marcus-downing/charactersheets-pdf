@@ -340,13 +340,13 @@
 		
         { "file": "Occult/Kineticist A.pdf", "slot": "kineticist-a", "name": "Kineticist A" },
             { "file": "Occult/Kineticist A more.pdf", "slot": "kineticist-a", "variant": "more", "name": "Kineticist A" },
-        { "file": "Occult/Kineticist B.pdf", "slot": "kineticist-b", "name": "Kineticist B" },
-            { "file": "Occult/Kineticist B more.pdf", "slot": "kineticist-b", "variant": "more", "name": "Kineticist B" },
+        { "file": "Occult/Kineticist B.pdf", "slot": "kineticist-b", "name": "Kineticist B", "a5": true },
+            { "file": "Occult/Kineticist B more.pdf", "slot": "kineticist-b", "variant": "more", "name": "Kineticist B", "a5": true },
         { "file": "Occult/Medium.pdf", "slot": "medium", "name": "Medium" },
-            { "file": "Occult/Medium - Spirits.pdf", "slot": "medium-spirits", "name": "Medium Spirits" },
+            { "file": "Occult/Medium - Spirits.pdf", "slot": "medium-spirits", "name": "Medium Spirits", "a5": true },
         { "file": "Occult/Mesmerist.pdf", "slot": "mesmerist", "name": "Mesmerist" },
         { "file": "Occult/Occultist.pdf", "slot": "occultist", "name": "Occultist" },
-            { "file": "Occult/Occultist - Implements 2.pdf", "slot": "occultist-implements", "name": "Occultist Implements" },
+            { "file": "Occult/Occultist - Implements 2.pdf", "slot": "occultist-implements", "name": "Occultist Implements", "a5": true },
         { "file": "Occult/Spiritualist.pdf", "slot": "spiritualist", "name": "Spiritualist" },
             { "file": "Occult/Spiritualist - Phantom.pdf", "slot": "spiritualist-phantom", "name": "Spiritualist Phantom" },
             { "file": "Occult/Spiritualist - Phantom - Combat.pdf", "slot": "spiritualist-phantom-combat", "name": "Spiritualist Phantom Combat" },
@@ -413,9 +413,9 @@
 
         { "file": "Extra/Character Background.pdf", "slot": "background", "name": "Character Background" },
         { "file": "Extra/Character Background - Pathfinder Society.pdf", "slot": "background", "variant": "pathfindersociety", "name": "Character Background (Pathfinder Society)" },
-        { "file": "Extra/Lycanthrope.pdf", "slot": "lycanthrope", "name": "Lycanthrope" },
+        { "file": "Extra/Lycanthrope.pdf", "slot": "lycanthrope", "name": "Lycanthrope", "a5": true },
         { "file": "Core/Party Funds.pdf", "slot": "partyfunds", "name": "Party Funds" },
-        { "file": "Extra/Intelligent Item.pdf", "slot": "intelligent-item", "name": "Intelligent Item" },
+        { "file": "Extra/Intelligent Item.pdf", "slot": "intelligent-item", "name": "Intelligent Item", "a5": true },
         
         { "file": "Extra/Blank Spellcaster - Prepared (Large).pdf", "slot": "prepared-caster", "variant": "large", "name": "Prepared Spellcaster" },
         { "file": "Extra/Blank Spellcaster - Prepared (Medium).pdf", "slot": "prepared-caster", "variant": "medium", "name": "Prepared Spellcaster" },
@@ -435,7 +435,7 @@
         { "file": "Extra/Mini (Medium).pdf", "slot": "mini-animal", "variant": "medium", "name": "Animal Companion Mini (Medium)" },
         { "file": "Extra/Mini (Large).pdf", "slot": "mini-animal", "variant": "large", "name": "Animal Companion Mini (Large)" },
 
-        { "file": "Core/Animal Companion.pdf", "slot": "animalcompanion", "name": "Animal Companion" }
+        { "file": "Core/Animal Companion.pdf", "slot": "animalcompanion", "name": "Animal Companion", "a5": true }
     ],
 
     "gm": {
@@ -462,7 +462,7 @@
                 { "file": "GM/Maps/2D/Raster/Hex A3.pdf", "name": "Map - Hex A3 Portrait", "slot": "hex-a3" },
                 { "file": "GM/Maps/2D/Raster/Hex A4.pdf", "name": "Map - Hex A4 Portrait", "slot": "hex-a4" },
                 { "file": "GM/Maps/2D/Raster/Hex A4 Landscape.pdf", "name": "Map - Hex A4 Landscape", "slot": "hex-a4-landscape" },
-                { "file": "GM/Maps/2D/Raster/Hex A5.pdf", "name": "Map - Hex A5 Portrait", "slot": "hex-a5" },
+                { "file": "GM/Maps/2D/Raster/Hex A5.pdf", "name": "Map - Hex A5 Portrait", "slot": "hex-a5", "a5": true },
                 { "file": "GM/Maps/2D/Raster/Isometric A4.pdf", "name": "Map - Isometric Grid A4 Portrait", "slot": "iso-a4" },
                 { "file": "GM/Maps/2D/Raster/Square A4.pdf", "name": "Map - Square Grid A4 Portrait", "slot": "grid-a4" }
             ],
@@ -470,7 +470,7 @@
                 { "file": "GM/Maps/3D/Raster/Hex A3.pdf", "name": "Map - Hex A3 Portrait", "slot": "hex-a3" },
                 { "file": "GM/Maps/3D/Raster/Hex A4.pdf", "name": "Map - Hex A4 Portrait", "slot": "hex-a4" },
                 { "file": "GM/Maps/3D/Raster/Hex A4 Landscape.pdf", "name": "Map - Hex A4 Landscape", "slot": "hex-a4-landscape" },
-                { "file": "GM/Maps/3D/Raster/Hex A5.pdf", "name": "Map - Hex A5 Portrait", "slot": "hex-a5" },
+                { "file": "GM/Maps/3D/Raster/Hex A5.pdf", "name": "Map - Hex A5 Portrait", "slot": "hex-a5", "a5": true },
                 { "file": "GM/Maps/3D/Raster/Isometric A4.pdf", "name": "Map - Isometric Grid A4 Portrait", "slot": "iso-a4" },
                 { "file": "GM/Maps/3D/Raster/Square A4.pdf", "name": "Map - Square Grid A4 Portrait", "slot": "grid-a4" }
             ]

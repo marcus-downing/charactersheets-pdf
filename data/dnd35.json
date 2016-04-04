@@ -164,7 +164,7 @@
         { "file": "Extended/Blank Spellcaster 3.pdf", "slot": "caster", "variant": "lesser", "name": "Lesser Caster" },
 
         { "file": "Extra/Character Background.pdf", "slot": "background", "name": "Character Background" },
-        { "file": "Extra/Lycanthrope.pdf", "slot": "lycanthrope", "name": "Lycanthrope" },
+        { "file": "Extra/Lycanthrope.pdf", "slot": "lycanthrope", "name": "Lycanthrope", "a5": true },
         { "file": "Core/Party Funds.pdf", "slot": "partyfunds", "name": "Party Funds" },
 
         { "file": "Core/Spell Book.pdf", "slot": "spellbook", "name": "Spellbook" },
@@ -178,8 +178,8 @@
         { "file": "Extra/Mini (Medium).pdf", "slot": "mini-animal", "variant": "medium", "name": "Animal Companion Mini (Medium)" },
         { "file": "Extra/Mini (Large).pdf", "slot": "mini-animal", "variant": "large", "name": "Animal Companion Mini (Large)" },
 
-        { "file": "Core/Animal Companion.pdf", "slot": "animalcompanion", "name": "Animal Companion" },
-        { "file": "Psionics/Psicrystal.pdf", "slot": "psicrystal", "name": "Psicrystal" }
+        { "file": "Core/Animal Companion.pdf", "slot": "animalcompanion", "name": "Animal Companion", "a5": true },
+        { "file": "Psionics/Psicrystal.pdf", "slot": "psicrystal", "name": "Psicrystal", "a5": true }
     ],
 
     "gm": {
